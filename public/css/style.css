@@ -11,11 +11,12 @@ html {
     width: 100vw;
     min-height: 100vh;
     height: 100%;
-    /* background-color: #fcdfb3;  */
     background: linear-gradient(#fcdfb383, #fcdfb383),
         url("https://lh3.googleusercontent.com/proxy/1r0xwcO0873y99p7BvyFbRI1a8siyxLZk3S6TYArbixjVXenChNKXrKn1YVE3dZHi7bqawVlt6B0F_zXYzxp6Nbt_7tHhz52fC4VTrT9sAShUyx__hoZNjQ54aVt83m91DCe41O2qANswLth9nEMsjymhxALYEhxJEZHXoO5Fjx4Dz7_nt9h6q7mBS489CgmWbe7b-H_2mQZllcA4yP9hL2-a2JaudNvZLevHm005_cfuA");
     background-size: cover;
     background-position: center;
+    background-repeat: none;
+    background-attachment: fixed;
 }
 
 .text-container__title {
