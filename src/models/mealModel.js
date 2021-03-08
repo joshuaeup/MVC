@@ -23,6 +23,7 @@ let mealsFromDB = [];
 
 // Query DB to retrieve all rows in table
 db.query("SELECT * FROM menu", (err, result) => {
+    // Checks for error then responds
     if (err) {
         return err;
     }
